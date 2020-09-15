@@ -10,6 +10,7 @@ public class demo {
         System.out.println("1.程序员");
         System.out.println("2.教师");
         System.out.println("3.律师");
+
         int type = scan.nextInt();
         String profession = (type==0?"会计":"程序员");
         System.out.println(profession);
